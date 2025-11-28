@@ -1,35 +1,43 @@
-import { useState } from 'react'
-import reactLogo from '../assets/react.svg'
-import viteLogo from '/vite.svg'
-import './assets/css/App.css'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-function App() {
-  const [count, setCount] = useState(0)
+/* COMPONENTS */
+import Layout from "./Layout";
 
+/* PAGES */
+import HomePage from "./pages/Home/page";
+import AboutUsPage from "./pages/AboutUs/page";
+import ActivitiesPage from "./pages/Activities/page";
+import AwardsPage from "./pages/Awards/page";
+import CollaborationsPage from "./pages/Collaborations/page";
+import ContactPage from "./pages/Contact/page";
+import SignaturePage from "./pages/Signature/page";
+import TeamPage from "./pages/Team/page";
+
+export default function App() {
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
-}
+    <BrowserRouter>
+      <Routes>
+        
+        {/* GLOBAL LAYOUT WRAPPING ALL PAGES */}
+        <Route path="/" element={<Layout />}>
+          
+          {/* CHILD ROUTES */}
+          <Route index element={<HomePage />} />
+          <Route path="aboutus" element={<AboutUsPage />} />
+          <Route path="activities" element={<ActivitiesPage />} />
+          <Route path="awards" element={<AwardsPage />} />
+          <Route path="collaborations" element={<CollaborationsPage />} />
+          <Route path="contact" element={<ContactPage />} />
 
-export default App
+          {/* New pages */}
+          <Route path="signature" element={<SignaturePage />} />
+          <Route path="team" element={<TeamPage />} />
+
+          {/* 404 Page */}
+          <Route path="*" element={<div style={{ padding: 40 }}>Page Not Found</div>} />
+        </Route>
+
+      </Routes>
+    </BrowserRouter>
+  );
+}
