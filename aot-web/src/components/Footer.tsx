@@ -11,12 +11,12 @@ const Footer: React.FC = () => {
           {/* Column 1: Brand */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center space-x-3">
-               <Logo className="w-10 h-10 text-cyan-500" />
-               <div className="flex flex-col">
-                   <span className="text-[10px] font-bold tracking-widest text-gray-400 uppercase">Taylor's University</span>
-                   <span className="text-lg font-bold tracking-wide text-white">Agents of Tech</span>
-               </div>
-            </Link>
+          <Logo className="w-12 h-8 text-cyan-500" />
+            <div className="flex flex-col">
+              {/* <span className="text-[10px] font-bold tracking-widest text-gray-400 uppercase">Taylor's University</span> */}
+              {/* <span className="text-lg font-bold tracking-wide text-white">Agents of Tech</span> */}
+              </div>
+            </Link> 
             <p className="text-gray-400 text-sm leading-relaxed">
               Empowering the next generation of tech leaders through innovation, collaboration, and hands-on learning. Join the future today with Agents of Tech.
             </p>

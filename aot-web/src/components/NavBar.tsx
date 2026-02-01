@@ -23,7 +23,7 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-between mx-auto p-4">
           <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse" onClick={() => setIsOpen(false)}>
-            <Logo className="w-10 h-10 md:w-12 md:h-12 text-cyan-500" />
+            <Logo className="w-12 h-8 md:w-12 md:h-8 text-cyan-500" />
             <div className="flex flex-col items-start justify-center">
                 <span className="text-[10px] md:text-xs font-bold tracking-[0.15em] text-cyan-100/70 uppercase leading-tight">
                     Taylor's University
