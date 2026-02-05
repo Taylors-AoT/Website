@@ -23,17 +23,17 @@ const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-between mx-auto p-4">
           <NavLink to="/" className="flex items-center space-x-3 rtl:space-x-reverse" onClick={() => setIsOpen(false)}>
-            <Logo className="w-12 h-8 md:w-12 md:h-8 text-cyan-500" />
+            <Logo className="w-16 h-12 text-cyan-500" />
             <div className="flex flex-col items-start justify-center">
-                <span className="text-[10px] md:text-xs font-bold tracking-[0.15em] text-cyan-100/70 uppercase leading-tight">
-                    Taylor's University
-                </span>
-                <span className="text-xl md:text-2xl font-bold whitespace-nowrap text-white tracking-wide leading-none">
-                    Agents of Tech
-                </span>
+              <span className="text-[10px] md:text-xs font-bold tracking-[0.15em] text-cyan-100/70 uppercase leading-tight">
+                Taylor's University
+              </span>
+              <span className="text-xl md:text-2xl font-bold whitespace-nowrap text-white tracking-wide leading-none">
+                Agents of Tech
+              </span>
             </div>
           </NavLink>
-          
+
           <button
             onClick={() => setIsOpen(!isOpen)}
             type="button"
