@@ -1,20 +1,15 @@
-import { Mail, MapPin, Phone } from 'lucide-react';
+import {Instagram, Mail, MapPin, Phone} from 'lucide-react';
 
 export const contactDetails = [
   {
-    icon: MapPin,
-    label: 'Visit Us',
-    value: 'Innovation Lab, Building 4, Tech University'
-  },
-  {
     icon: Mail,
     label: 'Email Us',
-    value: 'hello@agentsoftech.club'
+    value: 'agentsoftech.tlc@gmail.com'
   },
   {
-    icon: Phone,
-    label: 'Call Us',
-    value: '+1 (555) 123-4567'
+    icon: Instagram,
+    label: 'Message Us',
+    value: '@agentsoftech.tlc'
   }
 ];
 

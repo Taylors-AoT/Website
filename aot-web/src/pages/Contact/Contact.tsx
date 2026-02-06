@@ -27,7 +27,7 @@ const Contact: React.FC = () => {
             <h1 className={styles.title}>Get in Touch</h1>
             <p className={styles.infoText}>
                 Have a question, an idea for a collaboration, or just want to say hi? 
-                Drop us a message or find us on campus.
+                Feel free to drop us a message.
             </p>
         </div>
         
