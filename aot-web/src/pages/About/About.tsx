@@ -16,7 +16,7 @@ const About: React.FC = () => {
           <p className={styles.missionText}>
             Agents of Tech was founded in 2015 as the official Technology Club at Taylor’s University. Since the beginning, we have devoted ourselves to the gaining and distribution of knowledge of anything technology related to any students who are interested.
             <br/><br/>
-            Our goal is to bring more valuable knowledge and develop technological skills in students to be ready for the work environment of the 21st century.
+            Our goal is to bring more valuable knowledge and develop technological skills in students to be ready for the work environment of the 21st century. 
           </p>
         </div>
       </div>
