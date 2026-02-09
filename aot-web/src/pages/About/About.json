@@ -1,4 +1,57 @@
 {
   "title": "About Agents of Tech",
-  "missionText": "Agents of Tech was founded in 2015 as the official Technology Club at Taylor's University. Since the beginning, we have devoted ourselves to the gaining and distribution of knowledge of anything technology related to any students who are interested.\n\nOur goal is to bring more valuable knowledge and develop technological skills in students to be ready for the work environment of the 21st century."
+  "missionText": "Agents of Tech was founded in 2015 as the official Technology Club at Taylor's University. Since the beginning, we have devoted ourselves to the gaining and distribution of knowledge of anything technology related to any students who are interested.\n\nOur goal is to bring more valuable knowledge and develop technological skills in students to be ready for the work environment of the 21st century.",
+  "features": [
+    {
+      "iconId": "target",
+      "title": "Our Mission",
+      "description": "The mission of Taylor’s University Agents of Tech (AoT) Club is to serve as the premier platform for fostering a dynamic and inclusive community of technology enthusiasts within Taylor’s University.\n\nOur mission is rooted in the dedication to acquiring and disseminating knowledge in all facets of technology, creating a space where passionate students and educators can collaborate, learn, and innovate.\n\nWe aim to empower individuals with diverse backgrounds to develop their technological skills and be well-prepared for the challenges of the 21st-century work environment."
+    },
+    {
+      "iconId": "rocket",
+      "title": "Our Vision",
+      "description": "Our vision is to be a leading force in advancing technological knowledge and skills, making a positive impact not only within our university but also in the broader community.\n\nThrough our initiatives, we strive to empower our members to be catalysts of positive change and leaders in the technology-driven landscape."
+    },
+    {
+      "iconId": "lightbulb",
+      "title": "What We Do",
+      "description": "We organize hackathons, workshops, and guest lectures. We build real-world applications and contribute to open source ecosystems."
+    }
+  ],
+  "navCards": [
+    {
+      "id": "awards",
+      "to": "/awards",
+      "iconId": "trophy",
+      "title": "Awards & Recognition",
+      "description": "Discover the milestones, trophies, and accolades we've achieved over the years.",
+      "linkText": "View Awards"
+    },
+    {
+      "id": "collaborations",
+      "to": "/collaborations",
+      "iconId": "handshake",
+      "title": "Our Collaborations",
+      "description": "Meet our industry partners, sponsors, and the organizations we work with.",
+      "linkText": "View Partners"
+    }
+  ],
+  "teamHub": [
+    {
+      "id": "currentTeam",
+      "to": "/team/current",
+      "iconId": "users",
+      "title": "The Team",
+      "description": "Meet the current executive committee and active members driving innovation today.",
+      "linkText": "View Members"
+    },
+    {
+      "id": "pastExco",
+      "to": "/team/past",
+      "iconId": "history",
+      "title": "Past EXCO",
+      "description": "Honor the legacy of previous leaders who paved the way for the club's success.",
+      "linkText": "View Archive"
+    }
+  ]
 }
