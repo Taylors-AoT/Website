@@ -1,72 +1,101 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import aboutData from './About.json';
-import { styles } from './AboutStyles';
-import { features } from './AboutUtils';
-import { Trophy, Handshake, ArrowRight, Users, History } from 'lucide-react';
+import React from "react";
+import { Link } from "react-router-dom";
+import rawAboutData from "./About.json";
+import { styles } from "./AboutStyles";
+import { getIcon } from "./AboutUtils";
+
+type AboutData = {
+  title: string;
+  missionText: string;
+  features: {
+    iconId: string;
+    title: string;
+    description: string;
+  }[];
+  navCards: {
+    id: string;
+    to: string;
+    iconId: string;
+    title: string;
+    description: string;
+    linkText: string;
+  }[];
+  teamHub: {
+    id: string;
+    to: string;
+    iconId: string;
+    title: string;
+    description: string;
+    linkText: string;
+  }[];
+};
+
+const aboutData = rawAboutData as AboutData;
 
 const About: React.FC = () => {
   return (
     <div className={styles.container}>
+      {/* Header */}
       <div className={styles.header}>
         <h1 className={styles.title}>{aboutData.title}</h1>
       </div>
 
+      {/* Mission Text */}
       <div className={styles.section}>
         <div className={styles.missionBox}>
-          <p className={styles.missionText}>
-            {aboutData.missionText}
-          </p>
+          <p className={styles.missionText}>{aboutData.missionText}</p>
         </div>
       </div>
 
+      {/* Features */}
       <div className={styles.section}>
         <div className={styles.cardGrid}>
-          {features.map((feature: any, idx: number) => (
-            <div 
-              key={idx} 
-              className={`${styles.card} ${idx === 2 ? 'md:col-span-2 lg:w-3/4 md:mx-auto' : ''}`}
-            >
-              <feature.icon className={styles.cardIcon} />
-              <h3 className={styles.cardTitle}>{feature.title}</h3>
-              <p className={styles.cardText}>{feature.description}</p>
-            </div>
-          ))}
+          {aboutData.features.map((feature, idx) => {
+            const Icon = getIcon(feature.iconId as any);
+            return (
+              <div
+                key={feature.title + idx}
+                className={`${styles.card} ${
+                  idx === 2 ? "md:col-span-2 lg:w-3/4 md:mx-auto" : ""
+                }`}
+              >
+                <Icon className={styles.cardIcon} />
+                <h3 className={styles.cardTitle}>{feature.title}</h3>
+                <p className={styles.cardText}>{feature.description}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
 
       {/* Navigation Hub for Awards & Collaborations */}
       <div className={styles.section}>
         <div className={styles.navGrid}>
-          {/* Awards Card */}
-          <Link to="/awards" className={styles.navCard}>
-            <div className={styles.navGlow}></div>
-            <div className={`${styles.navIconWrapper} text-amber-500 group-hover:bg-amber-500/20`}>
-              <Trophy className="w-10 h-10" />
-            </div>
-            <h2 className={styles.navTitle}>Awards & Recognition</h2>
-            <p className={styles.navDesc}>
-              Discover the milestones, trophies, and accolades we've achieved over the years.
-            </p>
-            <span className={styles.navLink}>
-              View Awards <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </span>
-          </Link>
+          {aboutData.navCards.map((card) => {
+            const Icon = getIcon(card.iconId as any);
+            const isAwards = card.id === "awards";
+            const colorClass = isAwards
+              ? "text-amber-500 group-hover:bg-amber-500/20"
+              : "text-blue-500 group-hover:bg-blue-500/20";
 
-          {/* Collaborations Card */}
-          <Link to="/collaborations" className={styles.navCard}>
-            <div className={styles.navGlow}></div>
-            <div className={`${styles.navIconWrapper} text-blue-500 group-hover:bg-blue-500/20`}>
-              <Handshake className="w-10 h-10" />
-            </div>
-            <h2 className={styles.navTitle}>Our Collaborations</h2>
-            <p className={styles.navDesc}>
-              Meet our industry partners, sponsors, and the organizations we work with.
-            </p>
-            <span className={styles.navLink}>
-              View Partners <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-            </span>
-          </Link>
+            return (
+              <Link key={card.id} to={card.to} className={styles.navCard}>
+                <div className={styles.navGlow}></div>
+                <div className={`${styles.navIconWrapper} ${colorClass}`}>
+                  <Icon className="w-10 h-10" />
+                </div>
+                <h2 className={styles.navTitle}>{card.title}</h2>
+                <p className={styles.navDesc}>{card.description}</p>
+                <span className={styles.navLink}>
+                  {card.linkText}
+                  {/* ArrowRight is not from JSON; it's purely visual, so we keep it inline */}
+                  <span className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform">
+                    →
+                  </span>
+                </span>
+              </Link>
+            );
+          })}
         </div>
       </div>
 
@@ -74,37 +103,28 @@ const About: React.FC = () => {
       <div className={styles.section}>
         <div className={styles.teamSectionHeader}>
           <h2 className={styles.teamSectionTitle}>Meet the Team</h2>
-          <p className={styles.teamSectionSubtitle}>Meet the people behind the code.</p>
+          <p className={styles.teamSectionSubtitle}>
+            Meet the people behind the code.
+          </p>
         </div>
-        
-        <div className={styles.teamHubGrid}>
-          {/* Current Team Link */}
-          <Link to="/team/current" className={styles.teamHubCard}>
-            <div className={styles.teamHubIconWrapper}>
-              <Users className="w-10 h-10" />
-            </div>
-            <h2 className={styles.teamHubTitle}>The Team</h2>
-            <p className={styles.teamHubDesc}>
-              Meet the current executive committee and active members driving innovation today.
-            </p>
-            <div className={styles.teamHubLink}>
-              View Members <ArrowRight className="ml-2 w-4 h-4" />
-            </div>
-          </Link>
 
-          {/* Past EXCO Link */}
-          <Link to="/team/past" className={styles.teamHubCard}>
-            <div className={styles.teamHubIconWrapper}>
-              <History className="w-10 h-10" />
-            </div>
-            <h2 className={styles.teamHubTitle}>Past EXCO</h2>
-            <p className={styles.teamHubDesc}>
-              Honor the legacy of previous leaders who paved the way for the club's success.
-            </p>
-            <div className={styles.teamHubLink}>
-              View Archive <ArrowRight className="ml-2 w-4 h-4" />
-            </div>
-          </Link>
+        <div className={styles.teamHubGrid}>
+          {aboutData.teamHub.map((item) => {
+            const Icon = getIcon(item.iconId as any);
+            return (
+              <Link key={item.id} to={item.to} className={styles.teamHubCard}>
+                <div className={styles.teamHubIconWrapper}>
+                  <Icon className="w-10 h-10" />
+                </div>
+                <h2 className={styles.teamHubTitle}>{item.title}</h2>
+                <p className={styles.teamHubDesc}>{item.description}</p>
+                <div className={styles.teamHubLink}>
+                  {item.linkText}
+                  <span className="ml-2 w-4 h-4">→</span>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>
