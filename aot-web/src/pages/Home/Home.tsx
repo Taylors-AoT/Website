@@ -27,7 +27,7 @@ const Home: React.FC = () => {
             <Link to="/about" className={styles.primaryButton}>
               Explore Our Mission <ArrowRight className="w-5 h-5" />
             </Link>
-            <Link to="/contact" className={styles.secondaryButton}>
+            <Link to="https://docs.google.com/forms/d/e/1FAIpQLScDe3iZdh_hrdWMu50GZaAU-RhYF3fldINDU8kab7UCSdtAiA/viewform" className={styles.secondaryButton}>
               Join the Club
             </Link>
           </div>

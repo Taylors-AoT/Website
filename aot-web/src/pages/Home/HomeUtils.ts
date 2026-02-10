@@ -2,7 +2,7 @@ import { Code, Zap, Users, Globe } from 'lucide-react';
 
 export const stats = [
     { label: "Members", value: "300+" },
-    { label: "Events", value: "5~10 /yr" },
+    { label: "Events", value: "12~16 /yr" },
     { label: "Awards", value: "8" },
 ];
 
