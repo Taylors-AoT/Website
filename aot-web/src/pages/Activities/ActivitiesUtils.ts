@@ -49,26 +49,42 @@ export interface TimelineItem {
 
 export const timelineData: TimelineItem[] = [
     {
+        year: '2026',
+        title: 'Hilti Industrial Visit',
+        description: 'A collaboration event with Hilti giving students an opportunity to explore and gain insights through an industrial visit of Hilti.',
+        image: '/logos/Hilti Industrial Visit Poster.png'
+    },
+    {
+        year: '2025',
+        title: 'ImagineHack 2025',
+        description: 'ImagineHack is an annual initiative by AoT designed to grant university students the opportunity to develop their creative thinking and problem-solving skills, while also driving social change by developing solutions to pressing social issues.',
+        image: '/logos/IH 2025 Poster.png'    },
+
+
+    {
         year: '2024',
-        title: 'TechSummit 2024',
-        description: 'Our biggest event of the year featuring 5 days of workshops, talks, and a hackathon finale attended by over 500 students.',
-        image: 'https://picsum.photos/600/300?random=50'
+        title: 'Red vs Blue Cybersecurity Workshop',
+        description: 'A collaboration with Arvato Systems to gain further insights into Red Team and Blue Team jobscopes and cybersecurity job pathways.',
+        image: '/logos/red vs blue.jpeg'
     },
     {
-        year: '2023',
-        title: 'National Coding League',
-        description: 'Agents of Tech secured 1st Runner Up in the national inter-varsity coding competition, putting us on the map.',
-        image: 'https://picsum.photos/600/300?random=51'
+        year: '2024',
+        title: 'Tetris Tournament ',
+        description: 'A fun tetris tournament hosted for Taylorians.',
+        image: '/logos/AOT Tetris Tournament Poster.png'
     },
     {
-        year: '2022',
-        title: 'Club Rebranding',
-        description: 'Unveiling our new logo and mission statement to align with the future of AI and Web3 technologies.',
-        image: 'https://picsum.photos/600/300?random=52'
+        year: '2024',
+        title: 'Nextech Conference & EXPO 2024',
+        description: 'NexTech Conference & Exhibition 2024 is AoT’s signature event. It is a 2-day long conference exhibition hybrid consisting of workshops, tech talks and booths hosted by AoT Partners.',
+        image: '/logos/Nextech Conference.png'
     },
+
     {
-        year: '2015',
-        title: 'Club Founded',
-        description: 'The official inception of Agents of Tech at Taylor’s University, started by a group of 5 passionate CS students.',
-    }
+        year: '2024',
+        title: 'Paynet Industrial Visit',
+        description: 'A collaboration event with Paynet giving students an opportunity to explore and gain insights through an industrial visit of Paynet.',
+        image: '/logos/Paynet Poster.png'
+    },
+
 ];

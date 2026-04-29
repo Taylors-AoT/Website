@@ -29,8 +29,7 @@ export const styles = {
     yearBadge: "inline-block px-3 py-1 bg-cyan-900/30 border border-cyan-500/30 rounded-full text-cyan-400 text-xs font-bold tracking-wider mb-3",
     cardTitle: "text-xl font-bold text-white mb-2 group-hover:text-cyan-300 transition-colors",
     cardDesc: "text-gray-400 text-sm leading-relaxed",
-    cardImage: "w-full h-40 object-cover rounded-lg mb-4 border border-gray-700/50 opacity-90 group-hover:opacity-100 transition-opacity",
-    
-    // Date marker on desktop
+    cardImage: "max-h-[350px] w-auto mx-auto object-contain mb-6 rounded-xl shadow-2xl shadow-purple-500/20 border border-purple-500/10",    // Date marker on desktop
     desktopDate: "hidden md:block absolute top-1/2 -translate-y-1/2 text-gray-500 font-mono text-sm tracking-widest",
+
 };
