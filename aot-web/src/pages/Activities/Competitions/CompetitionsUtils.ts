@@ -1,16 +1,23 @@
 export const competitions = [
     { 
+        id: '3', 
+        title: 'Coding Competition 2024', 
+        year: '2024',
+        image: '/logos/codingcomp.jpg', // Path updated to match your public/logos folder
+        description: 'Crack the toughest codes! Join us at Taylor’s University (E7.13) for an intense session to test your logic and programming skills. Solo or teams of two are welcome—prizes worth RM360 await!' 
+    },
+    { 
         id: '1', 
         title: 'HackTaylor 2024', 
         year: '2024',
         image: 'https://picsum.photos/800/600?random=306',
-        description: 'Our annual 48-hour inter-university hackathon. Over 50 teams competed to build innovative solutions for sustainable development goals. The energy was electric!' 
+        description: 'Our annual 48-hour inter-university hackathon. Over 50 teams competed to build innovative solutions for sustainable development goals.' 
     },
     { 
         id: '2', 
         title: 'CodeQuest', 
         year: '2023',
         image: 'https://picsum.photos/800/600?random=307',
-        description: 'A competitive programming contest designed for beginners. Participants solved algorithmic challenges in Python and C++ to win exciting prizes and internship opportunities.' 
+        description: 'A competitive programming contest designed for beginners. Participants solved algorithmic challenges in Python and C++ to win exciting prizes.' 
     },
 ];
