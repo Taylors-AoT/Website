@@ -18,5 +18,4 @@ export const styles = {
     iconWrapper: "w-14 h-14 rounded-xl bg-gray-800/80 flex items-center justify-center mb-6 group-hover:bg-cyan-500/20 group-hover:scale-110 transition-all duration-300",
     cardTitle: "text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors",
     cardDesc: "text-gray-400 leading-relaxed group-hover:text-gray-300 flex-grow",
-    cardArrow: "mt-4 self-start text-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0",
-};
+    cardArrow: "mt-4 self-start text-cyan-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 transform translate-y-2 group-hover:translate-y-0",};
