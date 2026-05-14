@@ -25,6 +25,7 @@ aot-web/
 ├── public/                 # Static assets
 ├── src/
 │   ├── components/         # Reusable UI components
+│   ├── data/               # Centralized JSON data files (New)
 │   ├── pages/              # Page-level components
 │   │   ├── About/
 │   │   ├── Activities/
@@ -34,15 +35,15 @@ aot-web/
 │   │   ├── Events/
 │   │   ├── Home/
 │   │   └── Team/
-│   ├── Layout.tsx          # Common layout structure
+│   ├── styles/             # Shared styles and tokens (New)
+│   ├── utils/              # Centralized utilities (icons, formatters, etc.) (New)
 │   ├── App.tsx             # Main application component
-│   ├── main.tsx            # Application entry point
-│   └── index.tsx           # Root render file
+│   └── main.tsx            # Application entry point
 ├── index.html              # HTML entry file
+├── index.tsx               # Root render file (Loaded by index.html)
 ├── package.json            # Project dependencies and scripts
 ├── tsconfig.json           # TypeScript configuration
-├── vite.config.ts          # Vite configuration
-└── README.md               # Project documentation
+└── vite.config.ts          # Vite configuration
 
 🌐 Website Pages & Functions
 Home
