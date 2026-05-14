@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, Linkedin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './PastTeamStyles';
-import { pastTenures } from './PastTeamUtils';
+import pastTenures from '../../data/team/past.json';
 
 const PastTeam: React.FC = () => {
   return (

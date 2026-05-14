@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, MoreHorizontal } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './OthersStyles';
-import { otherEvents } from './OthersUtils';
+import otherEvents from '../../../data/activities/others.json';
 import EventShowcaseCard from '../../../components/EventShowcaseCard';
 
 const Others: React.FC = () => {

@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, Handshake } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './CollaborationEventsStyles';
-import { collabEvents } from './CollaborationEventsUtils';
+import collabEvents from '../../../data/activities/collaborationEvents.json';
 import EventShowcaseCard from '../../../components/EventShowcaseCard';
 
 const CollaborationEvents: React.FC = () => {

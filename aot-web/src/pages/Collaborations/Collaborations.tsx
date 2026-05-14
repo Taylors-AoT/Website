@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, Handshake } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './CollaborationsStyles';
-import { partners } from './CollaborationsUtils';
+import partners from '../../data/collaborations.json';
 
 const Collaborations: React.FC = () => {
   return (

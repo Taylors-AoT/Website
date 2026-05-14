@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './SignatureStyles';
-import { signatureEvents } from './SignatureUtils';
+import signatureEvents from '../../../data/activities/signature.json';
 import EventShowcaseCard from '../../../components/EventShowcaseCard';
 
 const Signature: React.FC = () => {

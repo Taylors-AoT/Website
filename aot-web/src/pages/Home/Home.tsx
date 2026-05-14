@@ -2,7 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { styles } from './HomeStyles';
-import { stats, whyJoinData } from './HomeUtils';
+import homeData from '../../data/home.json';
+import { getIcon } from '../../utils/icons';
+
+const { stats, whyJoinData } = homeData;
 
 const Home: React.FC = () => {
   return (
@@ -48,15 +51,18 @@ const Home: React.FC = () => {
           Why Join <span className="text-cyan-400">Agents of Tech</span>?
         </h2>
         <div className={styles.featuresGrid}>
-          {whyJoinData.map((feature, index) => (
-            <div key={index} className={styles.featureCard}>
-              <div className={styles.featureIconWrapper}>
-                <feature.icon className={styles.featureIcon} />
+          {whyJoinData.map((feature, index) => {
+            const Icon = getIcon(feature.iconId);
+            return (
+              <div key={index} className={styles.featureCard}>
+                <div className={styles.featureIconWrapper}>
+                  <Icon className={styles.featureIcon} />
+                </div>
+                <h3 className={styles.featureCardTitle}>{feature.title}</h3>
+                <p className={styles.featureCardDesc}>{feature.description}</p>
               </div>
-              <h3 className={styles.featureCardTitle}>{feature.title}</h3>
-              <p className={styles.featureCardDesc}>{feature.description}</p>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </section>
     </div>

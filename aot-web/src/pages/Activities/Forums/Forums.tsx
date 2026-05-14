@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, Mic2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './ForumsStyles';
-import { forumEvents } from './ForumsUtils';
+import forumEvents from '../../../data/activities/forums.json';
 import EventShowcaseCard from '../../../components/EventShowcaseCard';
 
 const Forums: React.FC = () => {

@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, Trophy } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './CompetitionsStyles';
-import { competitions } from './CompetitionsUtils';
+import competitions from '../../../data/activities/competitions.json';
 import EventShowcaseCard from '../../../components/EventShowcaseCard';
 
 const Competitions: React.FC = () => {

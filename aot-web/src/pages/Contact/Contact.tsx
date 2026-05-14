@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { styles } from './ContactStyles';
-import { contactDetails, validateEmail } from './ContactUtils';
+import contactDetails from '../../data/contact.json';
+import { validateEmail } from '../../utils/validators';
+import { getIcon } from '../../utils/icons';
 import { Send } from 'lucide-react';
 
 const Contact: React.FC = () => {
@@ -32,17 +34,20 @@ const Contact: React.FC = () => {
         </div>
         
         <div className="space-y-6">
-            {contactDetails.map((item, idx) => (
-                <div key={idx} className={styles.contactItem}>
-                    <div className={styles.contactIconBox}>
-                        <item.icon className="w-6 h-6" />
+            {contactDetails.map((item, idx) => {
+                const Icon = getIcon(item.iconId);
+                return (
+                    <div key={idx} className={styles.contactItem}>
+                        <div className={styles.contactIconBox}>
+                            <Icon className="w-6 h-6" />
+                        </div>
+                        <div>
+                            <span className={styles.label}>{item.label}</span>
+                            <p className={styles.value}>{item.value}</p>
+                        </div>
                     </div>
-                    <div>
-                        <span className={styles.label}>{item.label}</span>
-                        <p className={styles.value}>{item.value}</p>
-                    </div>
-                </div>
-            ))}
+                );
+            })}
         </div>
       </div>
 

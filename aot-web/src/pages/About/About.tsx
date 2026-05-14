@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import rawAboutData from "./About.json";
+import rawAboutData from "../../data/about.json";
 import { styles } from "./AboutStyles";
-import { getIcon } from "./AboutUtils";
+import { getIcon } from "../../utils/icons";
 
 import { AboutData } from "../../types";
 

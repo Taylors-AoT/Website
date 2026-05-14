@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, Trophy } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './AwardsStyles';
-import { awards } from './AwardsUtils';
+import awards from '../../data/awards.json';
 
 const Awards: React.FC = () => {
   return (

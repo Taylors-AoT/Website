@@ -2,7 +2,7 @@ import React from 'react';
 import { ArrowLeft, Code2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './WorkshopsStyles';
-import { workshopEvents } from './WorkshopsUtils';
+import workshopEvents from '../../../data/activities/workshops.json';
 import EventShowcaseCard from '../../../components/EventShowcaseCard';
 
 const Workshops: React.FC = () => {

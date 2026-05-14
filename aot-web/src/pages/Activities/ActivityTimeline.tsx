@@ -1,6 +1,6 @@
 import React from 'react';
 import { styles } from './ActivityTimelineStyles';
-import { timelineData } from './ActivitiesUtils';
+import timelineData from '../../data/activities/timeline.json';
 
 const ActivityTimeline: React.FC = () => {
   return (

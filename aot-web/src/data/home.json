@@ -1,0 +1,29 @@
+{
+  "stats": [
+    { "label": "Members", "value": "300+" },
+    { "label": "Events", "value": "12~16 /yr" },
+    { "label": "Awards", "value": "8" }
+  ],
+  "whyJoinData": [
+    {
+      "iconId": "code",
+      "title": "Development",
+      "description": "Master full-stack development with our hands-on workshops and real-world projects."
+    },
+    {
+      "iconId": "zap",
+      "title": "Innovation",
+      "description": "Turn your wild ideas into reality using cutting-edge technologies and AI."
+    },
+    {
+      "iconId": "users",
+      "title": "Community",
+      "description": "Join a network of like-minded enthusiasts and build lifelong professional connections."
+    },
+    {
+      "iconId": "globe",
+      "title": "Networking",
+      "description": "Connect with industry experts and alumni from leading tech giants."
+    }
+  ]
+}

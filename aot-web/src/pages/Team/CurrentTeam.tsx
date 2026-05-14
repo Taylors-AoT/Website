@@ -2,7 +2,7 @@ import React from 'react';
 import { Mail, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { styles } from './TeamStyles';
-import { teamSections } from './TeamUtils';
+import teamSections from '../../data/team/current.json';
 
 const CurrentTeam: React.FC = () => {
   return (

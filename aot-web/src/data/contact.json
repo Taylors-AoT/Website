@@ -1,0 +1,12 @@
+[
+  {
+    "iconId": "mail",
+    "label": "Email Us",
+    "value": "agentsoftech.tlc@gmail.com"
+  },
+  {
+    "iconId": "instagram",
+    "label": "Message Us",
+    "value": "@agentsoftech.tlc"
+  }
+]
