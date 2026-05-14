@@ -1,4 +1,4 @@
-import { TeamMember } from '../../../types';
+import { TeamMember } from '../../types';
 
 interface TeamSection {
   title: string;

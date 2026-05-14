@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { MapPin, Calendar, ArrowRight, X, Sparkles } from 'lucide-react';
 import { styles } from './EventsStyles';
 import { eventsList, formatDate } from './EventsUtils';
-import { EventItem } from '../../../types';
+import { EventItem } from '../../types';
 
 const Events: React.FC = () => {
   const [selectedEvent, setSelectedEvent] = useState<EventItem | null>(null);

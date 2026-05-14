@@ -4,31 +4,7 @@ import rawAboutData from "./About.json";
 import { styles } from "./AboutStyles";
 import { getIcon } from "./AboutUtils";
 
-type AboutData = {
-  title: string;
-  missionText: string;
-  features: {
-    iconId: string;
-    title: string;
-    description: string;
-  }[];
-  navCards: {
-    id: string;
-    to: string;
-    iconId: string;
-    title: string;
-    description: string;
-    linkText: string;
-  }[];
-  teamHub: {
-    id: string;
-    to: string;
-    iconId: string;
-    title: string;
-    description: string;
-    linkText: string;
-  }[];
-};
+import { AboutData } from "../../types";
 
 const aboutData = rawAboutData as AboutData;
 
