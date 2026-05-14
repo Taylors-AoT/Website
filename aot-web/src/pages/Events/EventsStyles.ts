@@ -1,5 +1,7 @@
+import { sharedStyles } from '../../styles/shared';
+
 export const styles = {
-    container: "min-h-screen pt-24 px-4 pb-12 max-w-5xl mx-auto",
+    container: `${sharedStyles.pageContainer} max-w-5xl mx-auto`,
     title: "text-4xl font-bold text-white mb-10 text-center",
     listContainer: "space-y-6",
     eventCard: "flex flex-col md:flex-row bg-gray-900/40 backdrop-blur-md border border-gray-800 rounded-xl overflow-hidden hover:border-cyan-500/50 transition-all duration-300",

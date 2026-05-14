@@ -1,8 +1,10 @@
+import { sharedStyles } from '../../styles/shared';
+
 export const styles = {
-    container: "min-h-screen pt-24 px-4 pb-12 max-w-6xl mx-auto",
-    header: "text-center mb-16",
-    title: "text-4xl md:text-5xl font-bold text-white mb-4",
-    subtitle: "text-gray-400 max-w-2xl mx-auto",
+    container: sharedStyles.pageContainerNarrow,
+    header: sharedStyles.pageHeader,
+    title: sharedStyles.pageTitle,
+    subtitle: sharedStyles.pageSubtitle,
     
     // List Layout Styles
     listContainer: "space-y-16",

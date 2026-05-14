@@ -1,5 +1,7 @@
+import { sharedStyles } from '../../styles/shared';
+
 export const styles = {
-    container: "min-h-screen pt-24 px-4 pb-12 max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start justify-center",
+    container: `${sharedStyles.pageContainer} max-w-6xl mx-auto flex flex-col md:flex-row gap-12 items-start justify-center`,
     infoSection: "flex-1 w-full space-y-8",
     title: "text-4xl font-bold text-white mb-6",
     infoText: "text-gray-400 text-lg mb-8",

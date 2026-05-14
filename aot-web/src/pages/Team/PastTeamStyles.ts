@@ -1,10 +1,12 @@
+import { sharedStyles } from '../../styles/shared';
+
 export const styles = {
-    container: "min-h-screen pt-24 px-4 pb-12 max-w-7xl mx-auto",
-    backLink: "inline-flex items-center text-cyan-400 hover:text-white transition-colors mb-8",
+    container: sharedStyles.pageContainerWide,
+    backLink: `${sharedStyles.backLink} mb-8`,
     
-    header: "text-center mb-16",
-    title: "text-4xl md:text-5xl font-bold text-white mb-4",
-    subtitle: "text-gray-400 max-w-2xl mx-auto",
+    header: sharedStyles.pageHeader,
+    title: sharedStyles.pageTitle,
+    subtitle: sharedStyles.pageSubtitle,
     
     section: "mb-20",
     sessionTitle: "text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-200 to-yellow-500 mb-10 text-center border-b border-gray-800 pb-4 max-w-md mx-auto",
