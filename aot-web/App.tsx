@@ -10,12 +10,7 @@ import Collaborations from './src/pages/Collaborations/Collaborations';
 import CurrentTeam from './src/pages/Team/CurrentTeam';
 import PastTeam from './src/pages/Team/PastTeam';
 import Activities from './src/pages/Activities/Activities';
-import Signature from './src/pages/Activities/Signature/Signature';
-import Workshops from './src/pages/Activities/Workshops/Workshops';
-import Forums from './src/pages/Activities/Forums/Forums';
-import Competitions from './src/pages/Activities/Competitions/Competitions';
-import CollaborationEvents from './src/pages/Activities/CollaborationEvents/CollaborationEvents';
-import Others from './src/pages/Activities/Others/Others';
+import ActivityCategoryPage from './src/pages/Activities/ActivityCategoryPage';
 import Events from './src/pages/Events/Events';
 import Contact from './src/pages/Contact/Contact';
 
@@ -47,12 +42,7 @@ const App: React.FC = () => {
             
             {/* Activities Routes */}
             <Route path="/activities" element={<Activities />} />
-            <Route path="/activities/signature" element={<Signature />} />
-            <Route path="/activities/workshops" element={<Workshops />} />
-            <Route path="/activities/forums" element={<Forums />} />
-            <Route path="/activities/competitions" element={<Competitions />} />
-            <Route path="/activities/collaborations" element={<CollaborationEvents />} />
-            <Route path="/activities/others" element={<Others />} />
+            <Route path="/activities/:category" element={<ActivityCategoryPage />} />
 
             <Route path="/upcoming" element={<Events />} />
             <Route path="/contact" element={<Contact />} />
