@@ -13,7 +13,7 @@ const Home: React.FC = () => {
       <section className={styles.heroSection}>
         {/* Background Image */}
         <img 
-            src="../../../public/excobod/EXCOBOD Group.JPG" 
+            src="/excobod/EXCOBOD Group.JPG" 
             alt="Agents of Tech Team" 
             className={styles.heroBackground} 
         />

@@ -2,7 +2,7 @@
   {
     "title": "EXCO",
     "members": [
-      { "id": "exco-1", "name": "Thtat Minn Htut", "role": "President", "imageUrl": "../../public/excobod/exco/Minn.jpg", "email": "thatminnhtut.aot@gmail.com" },
+      { "id": "exco-1", "name": "Thtat Minn Htut", "role": "President", "imageUrl": "/excobod/exco/Minn.jpg", "email": "thatminnhtut.aot@gmail.com" },
       { "id": "exco-2", "name": "Janani A/P Pragash", "role": "Vice President", "imageUrl": "../../public/excobod/exco/Janani.jpg", "email": "jananipragash06@gmail.com" },
       { "id": "exco-3", "name": "Muhammad Yusri Bin Arman", "role": "Treasurer & Sponsorship", "imageUrl": "../../public/excobod/exco/Yusri.jpg", "email": "yusri.armantan@gmail.com" },
       { "id": "exco-4", "name": "Tiffani Naomi", "role": "Secretary", "imageUrl": "../../public/excobod/exco/Tiff.jpg", "email": "tiffanyangthonio11@gmail.com" }
