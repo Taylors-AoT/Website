@@ -6,7 +6,7 @@ export const styles = {
 
     // New Background Elements
     heroBackground: "absolute inset-0 w-full h-full object-cover",
-    heroOverlay: "absolute inset-0 bg-gray-900/80 backdrop-blur-[2px]",
+    heroOverlay: "absolute inset-0 bg-gray-1000/60 backdrop-blur-[2px]",
 
     // Ensure content sits above overlay
     contentWrapper: "relative z-10 text-center max-w-4xl mx-auto animate-fade-in-up",

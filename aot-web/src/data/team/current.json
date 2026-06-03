@@ -2,42 +2,37 @@
   {
     "title": "EXCO",
     "members": [
-      { "id": "exco-1", "name": "Alex Rivera", "role": "President", "imageUrl": "https://picsum.photos/400/400?random=1", "email": "president@agentsoftech.club" },
-      { "id": "exco-2", "name": "Sarah Chen", "role": "Vice President", "imageUrl": "https://picsum.photos/400/400?random=2", "email": "vp@agentsoftech.club" },
-      { "id": "exco-3", "name": "James Smith", "role": "Treasurer & Sponsorship", "imageUrl": "https://picsum.photos/400/400?random=3", "email": "treasurer@agentsoftech.club" },
-      { "id": "exco-4", "name": "Olivia Wilson", "role": "Secretary", "imageUrl": "https://picsum.photos/400/400?random=4", "email": "secretary@agentsoftech.club" }
+      { "id": "exco-1", "name": "Thtat Minn Htut", "role": "President", "imageUrl": "../../public/excobod/exco/p.jpg", "email": "thatminnhtut.aot@gmail.com" },
+      { "id": "exco-2", "name": "Janani A/P Pragash", "role": "Vice President", "imageUrl": "../../public/excobod/exco/vp.jpg", "email": "jananipragash06@gmail.com" },
+      { "id": "exco-3", "name": "Muhammad Yusri Bin Arman", "role": "Treasurer & Sponsorship", "imageUrl": "../../public/excobod/exco/treasurer.jpg", "email": "yusri.armantan@gmail.com" },
+      { "id": "exco-4", "name": "Tiffani Naomi", "role": "Secretary", "imageUrl": "../../public/excobod/exco/secretary.jpg", "email": "tiffanyangthonio11@gmail.com" }
     ]
   },
   {
     "title": "Tech Team",
     "members": [
-      { "id": "tech-1", "name": "David Kim", "role": "Tech Lead", "imageUrl": "https://picsum.photos/400/400?random=5", "email": "tech@agentsoftech.club" },
-      { "id": "tech-2", "name": "Jordan Lee", "role": "Tech Co-Lead", "imageUrl": "https://picsum.photos/400/400?random=6", "email": "tech.lead1@agentsoftech.club" },
-      { "id": "tech-3", "name": "Priya Patel", "role": "Tech Co-Lead", "imageUrl": "https://picsum.photos/400/400?random=7", "email": "tech.lead2@agentsoftech.club" }
-    ]
-  },
-  {
-    "title": "Visual Marketing",
-    "members": [
-      { "id": "vm-1", "name": "Marcus Johnson", "role": "Director", "imageUrl": "https://picsum.photos/400/400?random=8", "email": "marketing@agentsoftech.club" },
-      { "id": "vm-2", "name": "Alice Wong", "role": "Co-Director", "imageUrl": "https://picsum.photos/400/400?random=9", "email": "marketing.co@agentsoftech.club" },
-      { "id": "vm-3", "name": "Tom Baker", "role": "Co-Director", "imageUrl": "https://picsum.photos/400/400?random=10", "email": "marketing.co2@agentsoftech.club" }
+      { "id": "tech-1", "name": "Tan Ming Reo", "role": "Tech Lead", "imageUrl": "../../public/excobod/tech/director.JPG", "email": "reotan.aot@gmail.com" },
+      { "id": "tech-2", "name": "Ong Ding Zhang", "role": "Tech Co-Lead", "imageUrl": "../../public/excobod/tech/co-dir-1.JPG", "email": "ongdingzhang@gmail.com" },
+      { "id": "tech-3", "name": "Lee Ping Xian", "role": "Tech Co-Lead", "imageUrl": "../../public/excobod/tech/co-dir-2.JPG", "email": "pingxianleel@gmail.com" }
     ]
   },
   {
     "title": "Events Team",
     "members": [
-      { "id": "evt-1", "name": "Emily Davis", "role": "Director", "imageUrl": "https://picsum.photos/400/400?random=11", "email": "events@agentsoftech.club" },
-      { "id": "evt-2", "name": "Ryan Park", "role": "Co-Director", "imageUrl": "https://picsum.photos/400/400?random=12", "email": "events.co@agentsoftech.club" },
-      { "id": "evt-3", "name": "Zoe Chang", "role": "Co-Director", "imageUrl": "https://picsum.photos/400/400?random=13", "email": "events.co2@agentsoftech.club" }
+      { "id": "evt-1", "name": "Raphael Jean Irvin", "role": "Director", "imageUrl": "../../public/excobod/events/director.JPG", "email": "raphael.jeanirvin@gmail.com" },
+      { "id": "evt-2", "name": "Eileen Ooi Jin Lin", "role": "Co-Director", "imageUrl": "../../public/excobod/events/co-dir-1.JPG", "email": "eileenooijl@gmail.com" },
+      { "id": "evt-3", "name": "Young Pey Yee", "role": "Co-Director", "imageUrl": "../../public/excobod/events/co-dir-2.JPG", "email": "pearlyyoungpy1@gmail.com " },
+      { "id": "evt-3", "name": "Tan Xin Yuan", "role": "Co-Director", "imageUrl": "../../public/excobod/events/co-dir-3.JPG", "email": "tanxinyuan11@gmail.com" }
     ]
   },
   {
-    "title": "Public Relations",
+    "title": "Strategic Communications",
     "members": [
-      { "id": "pr-1", "name": "Sophia Brown", "role": "Director", "imageUrl": "https://picsum.photos/400/400?random=14", "email": "pr@agentsoftech.club" },
-      { "id": "pr-2", "name": "Lucas Gray", "role": "Co-Director", "imageUrl": "https://picsum.photos/400/400?random=15", "email": "pr.co@agentsoftech.club" },
-      { "id": "pr-3", "name": "Mia Turner", "role": "Co-Director", "imageUrl": "https://picsum.photos/400/400?random=16", "email": "pr.co2@agentsoftech.club" }
+      { "id": "sc-1", "name": "Wong Ki Hurn", "role": "Director", "imageUrl": "../../public/excobod/sc/director.JPG", "email": "wongkihurn2005@gmail.com" },
+      { "id": "sc-2", "name": "Chew Ying Tong", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/co-dir-1.JPG", "email": "chewyingtong@gmail.com" },
+      { "id": "sc-3", "name": "Raina Haroon", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/co-dir-2.JPG", "email": "rainaharoon88@gmail.com" },
+      { "id": "sc-4", "name": "Hayley Chan Li Qing", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/co-dir-3.JPG", "email": "hayleychan12@gmail.com" },
+      { "id": "sc-5", "name": "Jeevikashinii Sivakumar", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/co-dir-4.JPG", "email": "jvshinii@gmail.com" }
     ]
   }
 ]
