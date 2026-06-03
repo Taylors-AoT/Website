@@ -1,23 +1,44 @@
 [
   { 
-    "id": "3", 
-    "title": "Coding Competition 2024", 
-    "year": "2024",
-    "image": "/logos/codingcomp.jpg",
-    "description": "Crack the toughest codes! Join us at Taylor’s University (E7.13) for an intense session to test your logic and programming skills. Solo or teams of two are welcome—prizes worth RM360 await!" 
-  },
-  { 
     "id": "1", 
-    "title": "HackTaylor 2024", 
-    "year": "2024",
-    "image": "https://picsum.photos/800/600?random=306",
-    "description": "Our annual 48-hour inter-university hackathon. Over 50 teams competed to build innovative solutions for sustainable development goals." 
+    "title": "Tetris Tournament", 
+    "year": "2025",
+    "image": "/logos/Comps/AOT Tetris Tournament Poster.png",
+    "description": "Put your reflexes and strategy to the test in an exciting Tetris competition where players compete for prizes, glory, and the title of ultimate block-stacking champion." 
   },
   { 
     "id": "2", 
-    "title": "CodeQuest", 
+    "title": "ImagineHack 2025", 
+    "year": "2025",
+    "image": "/logos/Comps/IH 2025 Poster.png",
+    "description": "A flagship hackathon that challenges participants to ideate, innovate, and develop impactful technology solutions while collaborating with like-minded creators and industry mentors." 
+  },
+  { 
+    "id": "3", 
+    "title": "Coding Competition", 
+    "year": "2024",
+    "image": "/logos/Comps/codingcomp.png",
+    "description": "Challenge your programming skills through a series of coding problems designed to test logical thinking, algorithmic knowledge, and problem-solving abilities under pressure." 
+  },
+  { 
+    "id": "4", 
+    "title": "ImagineHack 2024", 
+    "year": "2024",
+    "image": "/logos/Comps/IH 2024.png",
+    "description": "An innovation-focused hackathon where participants transform ideas into functional solutions, gaining hands-on experience in teamwork, product development, and pitching." 
+  },
+  { 
+    "id": "5", 
+    "title": "ImagineHack 2023", 
     "year": "2023",
-    "image": "https://picsum.photos/800/600?random=307",
-    "description": "A competitive programming contest designed for beginners. Participants solved algorithmic challenges in Python and C++ to win exciting prizes." 
+    "image": "/logos/Comps/imaginehack 2023.png",
+    "description": "A platform for aspiring innovators to reimagine the future through technology, creativity, and entrepreneurship while tackling real-world challenges." 
+  },
+  { 
+    "id": "6", 
+    "title": "ImagineHack 2021", 
+    "year": "2021",
+    "image": "/logos/Comps/imaginehack 2021.png",
+    "description": "The inaugural ImagineHack experience, bringing together students to think, create, and launch innovative solutions through collaborative problem-solving and rapid prototyping." 
   }
 ]

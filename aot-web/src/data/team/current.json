@@ -2,37 +2,37 @@
   {
     "title": "EXCO",
     "members": [
-      { "id": "exco-1", "name": "Thtat Minn Htut", "role": "President", "imageUrl": "../../public/excobod/exco/p.jpg", "email": "thatminnhtut.aot@gmail.com" },
-      { "id": "exco-2", "name": "Janani A/P Pragash", "role": "Vice President", "imageUrl": "../../public/excobod/exco/vp.jpg", "email": "jananipragash06@gmail.com" },
-      { "id": "exco-3", "name": "Muhammad Yusri Bin Arman", "role": "Treasurer & Sponsorship", "imageUrl": "../../public/excobod/exco/treasurer.jpg", "email": "yusri.armantan@gmail.com" },
-      { "id": "exco-4", "name": "Tiffani Naomi", "role": "Secretary", "imageUrl": "../../public/excobod/exco/secretary.jpg", "email": "tiffanyangthonio11@gmail.com" }
+      { "id": "exco-1", "name": "Thtat Minn Htut", "role": "President", "imageUrl": "../../public/excobod/exco/Minn.jpg", "email": "thatminnhtut.aot@gmail.com" },
+      { "id": "exco-2", "name": "Janani A/P Pragash", "role": "Vice President", "imageUrl": "../../public/excobod/exco/Janani.jpg", "email": "jananipragash06@gmail.com" },
+      { "id": "exco-3", "name": "Muhammad Yusri Bin Arman", "role": "Treasurer & Sponsorship", "imageUrl": "../../public/excobod/exco/Yusri.jpg", "email": "yusri.armantan@gmail.com" },
+      { "id": "exco-4", "name": "Tiffani Naomi", "role": "Secretary", "imageUrl": "../../public/excobod/exco/Tiff.jpg", "email": "tiffanyangthonio11@gmail.com" }
     ]
   },
   {
     "title": "Tech Team",
     "members": [
-      { "id": "tech-1", "name": "Tan Ming Reo", "role": "Tech Lead", "imageUrl": "../../public/excobod/tech/director.JPG", "email": "reotan.aot@gmail.com" },
-      { "id": "tech-2", "name": "Ong Ding Zhang", "role": "Tech Co-Lead", "imageUrl": "../../public/excobod/tech/co-dir-1.JPG", "email": "ongdingzhang@gmail.com" },
-      { "id": "tech-3", "name": "Lee Ping Xian", "role": "Tech Co-Lead", "imageUrl": "../../public/excobod/tech/co-dir-2.JPG", "email": "pingxianleel@gmail.com" }
+      { "id": "tech-1", "name": "Tan Ming Reo", "role": "Tech Lead", "imageUrl": "../../public/excobod/tech/Reo.JPG", "email": "reotan.aot@gmail.com" },
+      { "id": "tech-2", "name": "Ong Ding Zhang", "role": "Tech Co-Lead", "imageUrl": "../../public/excobod/tech/DZ.JPG", "email": "ongdingzhang@gmail.com" },
+      { "id": "tech-3", "name": "Lee Ping Xian", "role": "Tech Co-Lead", "imageUrl": "../../public/excobod/tech/Lee.JPG", "email": "pingxianleel@gmail.com" }
     ]
   },
   {
     "title": "Events Team",
     "members": [
-      { "id": "evt-1", "name": "Raphael Jean Irvin", "role": "Director", "imageUrl": "../../public/excobod/events/director.JPG", "email": "raphael.jeanirvin@gmail.com" },
-      { "id": "evt-2", "name": "Eileen Ooi Jin Lin", "role": "Co-Director", "imageUrl": "../../public/excobod/events/co-dir-1.JPG", "email": "eileenooijl@gmail.com" },
-      { "id": "evt-3", "name": "Young Pey Yee", "role": "Co-Director", "imageUrl": "../../public/excobod/events/co-dir-2.JPG", "email": "pearlyyoungpy1@gmail.com " },
-      { "id": "evt-3", "name": "Tan Xin Yuan", "role": "Co-Director", "imageUrl": "../../public/excobod/events/co-dir-3.JPG", "email": "tanxinyuan11@gmail.com" }
+      { "id": "evt-1", "name": "Raphael Jean Irvin", "role": "Director", "imageUrl": "../../public/excobod/events/Raph.JPG", "email": "raphael.jeanirvin@gmail.com" },
+      { "id": "evt-2", "name": "Eileen Ooi Jin Lin", "role": "Co-Director", "imageUrl": "../../public/excobod/events/Eileen.JPG", "email": "eileenooijl@gmail.com" },
+      { "id": "evt-3", "name": "Young Pey Yee", "role": "Co-Director", "imageUrl": "../../public/excobod/events/Pearly.JPG", "email": "pearlyyoungpy1@gmail.com " },
+      { "id": "evt-3", "name": "Tan Xin Yuan", "role": "Co-Director", "imageUrl": "../../public/excobod/events/XinYuan.JPG", "email": "tanxinyuan11@gmail.com" }
     ]
   },
   {
     "title": "Strategic Communications",
     "members": [
-      { "id": "sc-1", "name": "Wong Ki Hurn", "role": "Director", "imageUrl": "../../public/excobod/sc/director.JPG", "email": "wongkihurn2005@gmail.com" },
-      { "id": "sc-2", "name": "Chew Ying Tong", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/co-dir-1.JPG", "email": "chewyingtong@gmail.com" },
-      { "id": "sc-3", "name": "Raina Haroon", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/co-dir-2.JPG", "email": "rainaharoon88@gmail.com" },
-      { "id": "sc-4", "name": "Hayley Chan Li Qing", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/co-dir-3.JPG", "email": "hayleychan12@gmail.com" },
-      { "id": "sc-5", "name": "Jeevikashinii Sivakumar", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/co-dir-4.JPG", "email": "jvshinii@gmail.com" }
+      { "id": "sc-1", "name": "Wong Ki Hurn", "role": "Director", "imageUrl": "../../public/excobod/sc/KiHurn.JPG", "email": "wongkihurn2005@gmail.com" },
+      { "id": "sc-2", "name": "Chew Ying Tong", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/YingTong.JPG", "email": "chewyingtong@gmail.com" },
+      { "id": "sc-3", "name": "Raina Haroon", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/Raina.JPG", "email": "rainaharoon88@gmail.com" },
+      { "id": "sc-4", "name": "Hayley Chan Li Qing", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/Hayley.JPG", "email": "hayleychan12@gmail.com" },
+      { "id": "sc-5", "name": "Jeevikashinii Sivakumar", "role": "Co-Director", "imageUrl": "../../public/excobod/sc/Jeevi.JPG", "email": "jvshinii@gmail.com" }
     ]
   }
 ]

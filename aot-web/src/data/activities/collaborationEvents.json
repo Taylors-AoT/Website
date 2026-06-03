@@ -1,16 +1,37 @@
 [
   { 
     "id": "1", 
-    "title": "Inter-Uni Mixer", 
-    "year": "2024",
-    "image": "https://picsum.photos/800/600?random=308",
-    "description": "A massive networking event bringing together tech clubs from UM, Sunway, and APU. Students exchanged ideas, formed cross-university teams, and built lasting connections." 
+    "title": "Track Prehack: AAG x ASG", 
+    "year": "2026",
+    "image": "/logos/ColabEvents/AAG x ASG.png",
+    "description": "An exclusive prehack session featuring industry partners, offering participants valuable insights into business innovation, entrepreneurship, and real-world challenges to prepare for the hackathon journey." 
   },
   { 
     "id": "2", 
-    "title": "Industry Open Day", 
-    "year": "2023",
-    "image": "https://picsum.photos/800/600?random=309",
-    "description": "Co-hosted with TechCorp to showcase final year student projects. Industry recruiters were present to scout talent, offering on-the-spot interviews for top performers." 
+    "title": "Hilti Industry Visit", 
+    "year": "2026",
+    "image": "/logos/ColabEvents/Hilti.png",
+    "description": "Experience the professional working environment firsthand through an industry visit that provides career insights, networking opportunities, and exposure to real-world business operations." 
+  },
+  { 
+    "id": "3", 
+    "title": "AOT x Skilio", 
+    "year": "2024",
+    "image": "/logos/ColabEvents/Skillio.png",
+    "description": "Gain practical career and professional development insights from industry experts, learning how to communicate effectively, build your personal brand, and accelerate your career growth." 
+  },
+  { 
+    "id": "4", 
+    "title": "AOT x Petronas", 
+    "year": "2025",
+    "image": "/logos/ColabEvents/Petronas.png",
+    "description": "A sustainability initiative encouraging responsible waste management by collecting used cooking oil for recycling, helping reduce environmental impact and promote a greener future." 
+  },
+  { 
+    "id": "5", 
+    "title": "AOT x XRJam", 
+    "year": "2025",
+    "image": "/logos/ColabEvents/XRJam.png",
+    "description": "Explore the future of immersive technology through hands-on learning in XR development, AI integration, and game engine technologies such as Unity and Unreal Engine." 
   }
 ]

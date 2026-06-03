@@ -1,27 +1,33 @@
 [
   {
     "year": "2026",
+    "title": "Prehack Roadmap",
+    "description": "A series of workshops designed to equip beginners with the basic skills needed to stand a fighting chance in their first hackathon",
+    "image": "/logos/Prehack Roadmap/Prehack Roadmap 2026.png"
+  },
+  {
+    "year": "2026",
     "title": "Hilti Industrial Visit",
     "description": "A collaboration event with Hilti giving students an opportunity to explore and gain insights through an industrial visit of Hilti.",
-    "image": "/logos/Hilti Industrial Visit Poster.png"
+    "image": "/logos/ColabEvents/Hilti.png"
   },
   {
     "year": "2025",
     "title": "ImagineHack 2025",
     "description": "ImagineHack is an annual initiative by AoT designed to grant university students the opportunity to develop their creative thinking and problem-solving skills, while also driving social change by developing solutions to pressing social issues.",
-    "image": "/logos/IH 2025 Poster.png"
+    "image": "/logos/Comps/IH 2025 Poster.png"
   },
   {
     "year": "2024",
     "title": "Red vs Blue Cybersecurity Workshop",
     "description": "A collaboration with Arvato Systems to gain further insights into Red Team and Blue Team jobscopes and cybersecurity job pathways.",
-    "image": "/logos/red vs blue.jpeg"
+    "image": "/logos/ColabEvents/red vs blue.jpeg"
   },
   {
     "year": "2024",
     "title": "Tetris Tournament ",
     "description": "A fun tetris tournament hosted for Taylorians.",
-    "image": "/logos/AOT Tetris Tournament Poster.png"
+    "image": "/logos/Comps/AOT Tetris Tournament Poster.png"
   },
   {
     "year": "2024",
@@ -33,6 +39,6 @@
     "year": "2024",
     "title": "Paynet Industrial Visit",
     "description": "A collaboration event with Paynet giving students an opportunity to explore and gain insights through an industrial visit of Paynet.",
-    "image": "/logos/Paynet Poster.png"
+    "image": "/logos/ColabEvents/Paynet Poster.png"
   }
 ]

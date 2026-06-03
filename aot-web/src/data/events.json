@@ -1,31 +1,31 @@
 [
   {
     "id": "sig-1",
-    "title": "TechSummit 2024",
-    "date": "2024-11-15",
-    "location": "Grand Hall, Building A",
-    "description": "Our annual flagship conference featuring keynote speakers from Google and Microsoft.",
+    "title": "ImagineHack 2026",
+    "date": "2026-06-19",
+    "location": "LT20, Block E Level 2",
+    "description": "Our annual flagship hackathon.",
     "isSignature": true
   },
   {
     "id": "2",
-    "title": "React Workshop",
-    "date": "2024-10-20",
-    "location": "Lab 304",
-    "description": "Introductory session to React Hooks and Context API."
+    "title": "AWS Cendikiawan",
+    "date": "2026-06-26",
+    "location": "LT21/22",
+    "description": "Opening Ceremony of the AWS Cendikiawan Initiative."
   },
   {
     "id": "3",
-    "title": "AI Ethics Panel",
-    "date": "2024-10-25",
-    "location": "Auditorium B",
-    "description": "A debate on the ethical implications of Generative AI."
+    "title": "Opus AI Workshop",
+    "date": "2026-07-04",
+    "location": "TBC",
+    "description": "A workshop led by representatives from Opus about agentic workflow."
   },
   {
     "id": "4",
-    "title": "Networking Night",
-    "date": "2024-11-05",
-    "location": "Student Lounge",
-    "description": "Pizza, drinks, and networking with alumni."
+    "title": "Opus AI Industry Visit",
+    "date": "2026-07-08",
+    "location": "Opus KL",
+    "description": "Industry site visit to Opus AI."
   }
 ]
