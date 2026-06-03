@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
-import Navbar from './src/components/Navbar';
+import Navbar from './src/components/NavBar.tsx';
 import Background from './src/components/Background';
 import Footer from './src/components/Footer';
 import Home from './src/pages/Home/Home';
