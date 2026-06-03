@@ -2,19 +2,19 @@
   {
     "session": "2024 / 2025 Session",
     "members": [
-      { "id": "24-1", "name": "Wallace Tan", "role": "President", "imageUrl": "../../public/past/Term24.25/Wallace.jpg", "linkedinUrl": "#" },
-      { "id": "24-2", "name": "Lam Yun Han", "role": "Vice President", "imageUrl": "../../public/past/Term24.25/YunHan.jpg", "linkedinUrl": "#" },
-      { "id": "24-3", "name": "Janson Ho", "role": "Treasurer", "imageUrl": "../../public/past/Term24.25/Janson.webp", "linkedinUrl": "#" },
-      { "id": "24-4", "name": "Ashley Chan", "role": "Secretary", "imageUrl": "../../public/past/Term24.25/Ashley.webp", "linkedinUrl": "#" }
+      { "id": "24-1", "name": "Wallace Tan", "role": "President", "imageUrl": "/past/Term24.25/Wallace.jpg", "linkedinUrl": "#" },
+      { "id": "24-2", "name": "Lam Yun Han", "role": "Vice President", "imageUrl": "/past/Term24.25/YunHan.jpg", "linkedinUrl": "#" },
+      { "id": "24-3", "name": "Janson Ho", "role": "Treasurer", "imageUrl": "/past/Term24.25/Janson.webp", "linkedinUrl": "#" },
+      { "id": "24-4", "name": "Ashley Chan", "role": "Secretary", "imageUrl": "/past/Term24.25/Ashley.webp", "linkedinUrl": "#" }
     ]
   },
   {
     "session": "2023 / 2024 Session",
     "members": [
-      { "id": "23-1", "name": "Chow Suet Ling", "role": "President", "imageUrl": "../../public/past/Term23.24/Chow-Suet-Ling.webp", "linkedinUrl": "#" },
-      { "id": "23-2", "name": "Yong Wing Soon", "role": "Vice President", "imageUrl": "../../public/past/Term23.24/Wing-Soon-2.webp", "linkedinUrl": "#" },
-      { "id": "23-3", "name": "Yam Ke Li", "role": "Treasurer", "imageUrl": "../../public/past/Term23.24/Yam-Ke-Li-2.png", "linkedinUrl": "#" },
-      { "id": "23-4", "name": "Aria Khong", "role": "Secretary", "imageUrl": "../../public/past/Term23.24/Aria-1.png", "linkedinUrl": "#" }
+      { "id": "23-1", "name": "Chow Suet Ling", "role": "President", "imageUrl": "/past/Term23.24/Chow-Suet-Ling.webp", "linkedinUrl": "#" },
+      { "id": "23-2", "name": "Yong Wing Soon", "role": "Vice President", "imageUrl": "/past/Term23.24/Wing-Soon-2.webp", "linkedinUrl": "#" },
+      { "id": "23-3", "name": "Yam Ke Li", "role": "Treasurer", "imageUrl": "/past/Term23.24/Yam-Ke-Li-2.png", "linkedinUrl": "#" },
+      { "id": "23-4", "name": "Aria Khong", "role": "Secretary", "imageUrl": "/past/Term23.24/Aria-1.png", "linkedinUrl": "#" }
     ]
   }
 ]
