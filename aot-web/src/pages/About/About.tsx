@@ -27,7 +27,6 @@ const About: React.FC = () => {
       <div className={styles.section}>
         <div className={styles.cardGrid}>
           {aboutData.features.map((feature, idx) => {
-            const Icon = getIcon(feature.iconId as any);
             return (
               <div
                 key={feature.title + idx}
@@ -35,7 +34,11 @@ const About: React.FC = () => {
                   idx === 2 ? "md:col-span-2 lg:w-3/4 md:mx-auto" : ""
                 }`}
               >
-                <Icon className={styles.cardIcon} />
+                <img 
+                  src={`/icons/about/${feature.iconId}.png`} 
+                  alt={feature.title} 
+                  className={styles.cardIcon} 
+                />
                 <h3 className={styles.cardTitle}>{feature.title}</h3>
                 <p className={styles.cardText}>{feature.description}</p>
               </div>
@@ -48,17 +51,15 @@ const About: React.FC = () => {
       <div className={styles.section}>
         <div className={styles.navGrid}>
           {aboutData.navCards.map((card) => {
-            const Icon = getIcon(card.iconId as any);
-            const isAwards = card.id === "awards";
-            const colorClass = isAwards
-              ? "text-amber-500 group-hover:bg-amber-500/20"
-              : "text-blue-500 group-hover:bg-blue-500/20";
-
             return (
               <Link key={card.id} to={card.to} className={styles.navCard}>
                 <div className={styles.navGlow}></div>
-                <div className={`${styles.navIconWrapper} ${colorClass}`}>
-                  <Icon className="w-10 h-10" />
+                <div className={styles.navIconWrapper}>
+                  <img 
+                    src={`/icons/about/${card.iconId}.png`} 
+                    alt={card.title} 
+                    className="w-16 h-16 object-contain mix-blend-screen"
+                  />
                 </div>
                 <h2 className={styles.navTitle}>{card.title}</h2>
                 <p className={styles.navDesc}>{card.description}</p>
@@ -86,11 +87,14 @@ const About: React.FC = () => {
 
         <div className={styles.teamHubGrid}>
           {aboutData.teamHub.map((item) => {
-            const Icon = getIcon(item.iconId as any);
             return (
               <Link key={item.id} to={item.to} className={styles.teamHubCard}>
                 <div className={styles.teamHubIconWrapper}>
-                  <Icon className="w-10 h-10" />
+                  <img 
+                    src={`/icons/about/${item.iconId}.png`} 
+                    alt={item.title} 
+                    className="w-16 h-16 object-contain mix-blend-screen"
+                  />
                 </div>
                 <h2 className={styles.teamHubTitle}>{item.title}</h2>
                 <p className={styles.teamHubDesc}>{item.description}</p>

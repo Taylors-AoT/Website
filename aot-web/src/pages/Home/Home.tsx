@@ -52,11 +52,14 @@ const Home: React.FC = () => {
         </h2>
         <div className={styles.featuresGrid}>
           {whyJoinData.map((feature, index) => {
-            const Icon = getIcon(feature.iconId);
             return (
               <div key={index} className={styles.featureCard}>
                 <div className={styles.featureIconWrapper}>
-                  <Icon className={styles.featureIcon} />
+                  <img 
+                    src={`/icons/home/${feature.iconId}.png`} 
+                    alt={feature.title} 
+                    className={styles.featureIcon}
+                  />
                 </div>
                 <h3 className={styles.featureCardTitle}>{feature.title}</h3>
                 <p className={styles.featureCardDesc}>{feature.description}</p>

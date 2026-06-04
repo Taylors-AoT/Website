@@ -37,7 +37,7 @@ const Activities: React.FC = () => {
         {/* Workshops */}
         <Link to="/activities/workshops" className={styles.categoryCard}>
           <div className={styles.iconWrapper}>
-            <Code2 className="w-8 h-8 text-cyan-400" />
+            <img src="/icons/activities/workshops.png" alt="Workshops" className="w-16 h-16 object-contain mix-blend-screen" />
           </div>
           <h3 className={styles.cardTitle}>Workshops</h3>
           <p className={styles.cardDesc}>
@@ -49,7 +49,7 @@ const Activities: React.FC = () => {
         {/* Forums */}
         <Link to="/activities/forums" className={styles.categoryCard}>
           <div className={styles.iconWrapper}>
-            <Mic2 className="w-8 h-8 text-purple-400" />
+            <img src="/icons/activities/forums.png" alt="Forums" className="w-16 h-16 object-contain mix-blend-screen" />
           </div>
           <h3 className={styles.cardTitle}>Forums</h3>
           <p className={styles.cardDesc}>
@@ -61,7 +61,7 @@ const Activities: React.FC = () => {
         {/* Competitions */}
         <Link to="/activities/competitions" className={styles.categoryCard}>
           <div className={styles.iconWrapper}>
-            <Trophy className="w-8 h-8 text-yellow-400" />
+            <img src="/icons/activities/competitions.png" alt="Competitions" className="w-16 h-16 object-contain mix-blend-screen" />
           </div>
           <h3 className={styles.cardTitle}>Competitions</h3>
           <p className={styles.cardDesc}>
@@ -73,7 +73,7 @@ const Activities: React.FC = () => {
         {/* Collaboration Events */}
         <Link to="/activities/collaborations" className={styles.categoryCard}>
           <div className={styles.iconWrapper}>
-            <Handshake className="w-8 h-8 text-green-400" />
+            <img src="/icons/activities/collaborations.png" alt="Collaboration Events" className="w-16 h-16 object-contain mix-blend-screen" />
           </div>
           <h3 className={styles.cardTitle}>Collaboration Events</h3>
           <p className={styles.cardDesc}>
@@ -85,7 +85,7 @@ const Activities: React.FC = () => {
         {/* Others */}
         <Link to="/activities/others" className={styles.categoryCard}>
           <div className={styles.iconWrapper}>
-            <MoreHorizontal className="w-8 h-8 text-pink-400" />
+            <img src="/icons/activities/others.png" alt="Others" className="w-16 h-16 object-contain mix-blend-screen" />
           </div>
           <h3 className={styles.cardTitle}>Others</h3>
           <p className={styles.cardDesc}>

@@ -93,8 +93,12 @@ const ActivityCategoryPage: React.FC = () => {
 
       <div className={sharedStyles.pageHeader}>
         <div className="flex justify-center mb-6">
-            <div className={`p-4 ${meta.bgColorClass} rounded-full border ${meta.borderColorClass}`}>
-                <Icon className={`w-12 h-12 ${meta.colorClass}`} />
+            <div className="w-20 h-20 flex items-center justify-center">
+                <img 
+                    src={`/icons/activities/${category}.png`} 
+                    alt={meta.title} 
+                    className="w-20 h-20 object-contain mix-blend-screen"
+                />
             </div>
         </div>
         <h1 className={sharedStyles.pageTitle}>{meta.title}</h1>
