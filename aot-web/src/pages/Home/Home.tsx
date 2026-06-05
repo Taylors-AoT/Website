@@ -25,15 +25,6 @@ const Home: React.FC = () => {
           <h1 className={styles.title}>
             Taylor's University <br className="hidden md:block" /> Agents of Tech
           </h1>
-          
-          <div className={styles.buttonGroup}>
-            <Link to="/about" className={styles.primaryButton}>
-              Explore Our Mission <ArrowRight className="w-5 h-5" />
-            </Link>
-            <Link to="https://docs.google.com/forms/d/e/1FAIpQLScDe3iZdh_hrdWMu50GZaAU-RhYF3fldINDU8kab7UCSdtAiA/viewform" className={styles.secondaryButton}>
-              Join the Club
-            </Link>
-          </div>
         </div>
 
         <div className={styles.statsContainer}>
@@ -43,6 +34,15 @@ const Home: React.FC = () => {
               <div className={styles.statLabel}>{stat.label}</div>
             </div>
           ))}
+        </div>
+
+        <div className={styles.buttonGroup}>
+          <Link to="/about" className={styles.primaryButton}>
+            Explore Our Mission <ArrowRight className="w-5 h-5" />
+          </Link>
+          <Link to="https://docs.google.com/forms/d/e/1FAIpQLScDe3iZdh_hrdWMu50GZaAU-RhYF3fldINDU8kab7UCSdtAiA/viewform" className={styles.secondaryButton}>
+            Join the Club
+          </Link>
         </div>
       </section>
 

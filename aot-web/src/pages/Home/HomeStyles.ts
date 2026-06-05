@@ -13,7 +13,7 @@ export const styles = {
     
     title: "text-5xl md:text-7xl font-extrabold font-heading text-transparent bg-clip-text bg-gradient-to-r from-white via-cyan-300 to-indigo-500 mb-10 tracking-tight drop-shadow-lg leading-normal pb-2",
     subtitle: "text-lg md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto leading-relaxed font-light",
-    buttonGroup: "flex flex-col sm:flex-row gap-4 justify-center items-center",
+    buttonGroup: "relative z-10 mt-12 flex flex-col sm:flex-row gap-4 justify-center items-center",
     primaryButton: "px-8 py-4 bg-gradient-to-r from-cyan-600 to-indigo-600 rounded-lg text-white font-bold text-lg shadow-[0_0_20px_rgba(6,182,212,0.3)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] hover:scale-105 transition-all duration-300 flex items-center gap-2",
     secondaryButton: "px-8 py-4 bg-gray-800/50 backdrop-blur-sm border border-gray-600 rounded-lg text-white font-semibold text-lg hover:bg-gray-700/50 hover:border-gray-400 transition-all duration-300 font-mono text-base tracking-wide",
     
